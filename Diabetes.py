@@ -11,19 +11,12 @@ This diabetes prediction model is developed to evaluate the likelihood of diabet
 
 st.write("### Creator Information")
 
-# Display author details and image
-col1, col2 = st.columns([1, 3])  # Create two columns with different widths
 
-with col1:
-    # Adjust the path if necessary
-    st.image("C:/Users/bonnym/OneDrive - Small Enterprise Finance Agency/Documents/WP/Models/Diabetes/Bonny (2).jpg", width=150)  # Adjust the width as needed
-
-with col2:
-    st.write("**Name:** Bonny Makuwa")
-    st.write("**Bio:** Focusing on predictive modeling and data analysis. Proficient in Power BI, Python, SQL, and machine learning techniques. Experienced in creating and optimizing models to drive insights and enhance decision-making processes.")
-    st.write("**LinkedIn:** [Bonny Makuwa LinkedIn](https://www.linkedin.com/in/bonny-makuwa-04a8b6153/)")
-    st.write("**GitHub:** [Bonny Makuwa GitHub](https://github.com/Bonnymakuwa)")
-    st.write("**Email:** [Bonny Makuwa Email](mailto:bonnymakuwa@gmail.com)")
+st.write("**Name:** Bonny Makuwa")
+st.write("**Bio:** Focusing on predictive modeling and data analysis. Proficient in Power BI, Python, SQL, and machine learning techniques. Experienced in creating and optimizing models to drive insights and enhance decision-making processes.")
+st.write("**LinkedIn:** [Bonny Makuwa LinkedIn](https://www.linkedin.com/in/bonny-makuwa-04a8b6153/)")
+st.write("**GitHub:** [Bonny Makuwa GitHub](https://github.com/Bonnymakuwa)")
+st.write("**Email:** [Bonny Makuwa Email](mailto:bonnymakuwa@gmail.com)")
 
 # User input
 age = st.slider('**Age**', 0, 120, 30)
